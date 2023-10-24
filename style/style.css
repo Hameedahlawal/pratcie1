@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 20vh;
+    margin-left: 45vh;
+    display: flex;
+    height: 70vh;
+    width: 50em;
+    text-align: center;
+    background: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container .left{
+    padding: 15vh;
+}
+.container .right{
+    margin-right: 14vh;
+    background: #d6cdcd;
+}
+.container .right .middle{
+    text-align: left;
+    margin-top: 5vh;
+    background: whitesmoke;
+    padding: 5vh;
+    border-radius: 10px;
+}
+.container .right .top{
+    margin-top: 5vh;
+    width: 85vh;
+}
+.container .right .middle .first{
+    display: flex;
+    padding-top: 15px;
+}
+.container .right .middle .first div{
+    padding-right: 15vh;
+    border-radius: 10px;
+}
+.container .right .middle .second{
+    display: flex;
+    padding-top: 15px;
+}
+.container .right .middle .second div{
+    padding-right: 15vh;
+    border-radius: 10px;
+}
+.container .right .middle .third{
+    display: flex;
+    padding-top: 15px;
+}
+.container .right .middle .third div{
+    padding-right: 15vh;
+    border-radius: 10px;
+}
+.last{
+    text-align: left;
+    padding-left: 2vh;
+}
+.last button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    background-color:white;
+    border: none;
+    border-radius: 5%;
+    text-align: left;
+}
